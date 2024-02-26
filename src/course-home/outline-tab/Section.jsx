@@ -49,7 +49,7 @@ const Section = ({
     imageName = "tb_" + imageName.replace(/[\(\)& -]/g, "_");
 
     let domain = window.location.origin;
-    domain = domain.replace("app.", "");
+    domain = domain.replace("apps.", "");
     domain = domain.replace(":2000", ":8000");
 
     let thumbnailUrl = domain + "/" + asset + "+type@asset+block@" + imageName + ".png";
