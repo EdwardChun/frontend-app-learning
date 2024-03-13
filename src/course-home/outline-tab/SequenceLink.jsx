@@ -88,7 +88,7 @@ const SequenceLink = ({
       <div className={classNames('', { 'mt-2 pt-2 border-top border-light': !first })}>
         <div className="row w-100 m-0">
           <div className="col-auto p-0">
-            {complete ? (
+            {/* {complete ? (
               <FontAwesomeIcon
                 icon={fasCheckCircle}
                 fixedWidth
@@ -104,14 +104,14 @@ const SequenceLink = ({
                 aria-hidden="true"
                 title={intl.formatMessage(messages.incompleteAssignment)}
               />
-            )}
+            )} */}
           </div>
           <div className="col-10 p-0 ml-3 text-break">
             <span className="align-middle">{displayTitle}</span>
             <span className="sr-only">
               , {intl.formatMessage(complete ? messages.completedAssignment : messages.incompleteAssignment)}
             </span>
-            <EffortEstimate className="ml-3 align-middle" block={sequence} />
+            {/* <EffortEstimate className="ml-3 align-middle" block={sequence} /> */}
           </div>
         </div>
         <div className="row w-100 m-0 ml-3 pl-3">
