@@ -53,13 +53,13 @@ const LoadedTabPage = ({
       <Helmet>
         <title>{`${activeTab ? `${activeTab.title} | ` : ''}${title} | ${getConfig().SITE_NAME}`}</title>
       </Helmet>
-      {originalUserIsStaff && (
+      {/*{originalUserIsStaff && (
         <InstructorToolbar
           courseId={courseId}
           unitId={unitId}
           tab={activeTabSlug}
         />
-      )}
+      )} */}
       <StreakModal
         courseId={courseId}
         metadataModel={metadataModel}
