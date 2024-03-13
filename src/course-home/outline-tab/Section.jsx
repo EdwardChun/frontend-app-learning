@@ -60,7 +60,7 @@ const Section = ({
   const sectionTitle = (
     <div className="row w-100 m-0">
       <div className="col-auto p-0">
-        {complete ? (
+        {/* {complete ? (
           <FontAwesomeIcon
             icon={fasCheckCircle}
             fixedWidth
@@ -76,7 +76,7 @@ const Section = ({
             aria-hidden="true"
             title={intl.formatMessage(messages.incompleteSection)}
           />
-        )}
+        )} */}
       </div>
       <div className="col-10 ml-3 p-0 font-weight-bold text-dark-500">
         <div>{topicThumbnail()}</div>
