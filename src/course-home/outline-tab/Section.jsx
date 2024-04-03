@@ -46,7 +46,7 @@ const Section = ({
 
     let asset = courseId.replace("course-v1:", "asset-v1:")
     let imageName = title.toLowerCase();
-    imageName = "tb_" + imageName.replace(/[\(\)& -]/g, "_");
+    imageName = "tb_" + imageName.replace(/[\(\)®&\s-]/g, "_");
 
     let domain = window.location.origin;
     domain = domain.replace("apps.", "");
